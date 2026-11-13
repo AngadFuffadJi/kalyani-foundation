@@ -1,6 +1,6 @@
 # Kalyani Foundation
 
-This build restores the original Kalyani Foundation website UI from its public source and integrates the supplied animated Doodle Crew React component as the closing section. The original wordmark, illustrated logo, navigation, copy, visual design and scroll interactions are retained. The official symbol and full logo are included as `public/kalyani-symbol.webp` and `public/kalyani-logo.webp`.
+This is a React and TypeScript website for Kalyani Foundation. The supplied Doodle Crew React UI is the opening scene: its hand-drawn KALYANI wordmark, interactive characters, drifting doodles, and action links are visible immediately. The original Kalyani emblem and full logo are included as `public/kalyani-symbol.webp` and `public/kalyani-logo.webp`. The remaining sections cover the foundation's mission, pillars, approach, programmes, vision, social channels, and contact options.
 
 ## Run locally
 
@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-The GitHub Pages workflow deploys `dist/` from `main`. The contact form follows the reference site and prepares an email draft; backend integration can be added when backend files are supplied.
+The GitHub Pages workflow deploys `dist/` from `main`. The contact form prepares an email draft. No backend files were included in the supplied attachment; backend handling can be connected when those files are provided.
