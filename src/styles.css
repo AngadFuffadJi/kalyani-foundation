@@ -42,6 +42,8 @@
 @media(max-width:720px){.dcf.kalyani-opening{min-height:780px;}.about-brand-note{flex-direction:row;align-items:center;justify-content:space-between;gap:14px;margin-bottom:22px;}.about-official-logo{width:112px;}.foundation-footer{grid-template-columns:1fr;padding:34px 22px 24px;}.foundation-footer-links{flex-wrap:wrap;gap:18px;}.foundation-footer p{grid-column:1;}}
 .label-ornament{display:inline-block;width:10px;height:10px;border:1px solid currentColor;transform:rotate(45deg);}
 .ribbon-track .ribbon-mark{display:inline-block;width:9px;height:9px;border:1px solid currentColor;transform:rotate(45deg);}
+/* Keep page-wide decoration calm; the opening illustration carries the motion. */
+.ribbon-track,.moving-words span{animation:none!important;}
 .purpose-asterisk{width:62px;height:62px;border:1px solid currentColor;border-radius:50%;}
 .principles li{grid-template-columns:1fr;}
 .pillar-seal .seal-flower,.dialog-seal .seal-flower{display:block;width:8px;height:8px;padding:0;border:1px solid currentColor;border-radius:1px;transform:rotate(45deg);}
