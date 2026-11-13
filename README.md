@@ -1,6 +1,6 @@
-# Kalyani Foundation website
+# Kalyani Foundation
 
-A royal, scroll-led React and TypeScript frontend for Kalyani Foundation. The page follows the live reference site's mission, three pillars, approach, programmes, vision, contact details and social channels. The supplied Doodle Crew footer component is integrated with its animated crew and drifting doodles, styled in the foundation's bottle-green and antique-gold palette.
+This build restores the original Kalyani Foundation website UI from its public source and integrates the supplied animated Doodle Crew React component as the closing section. The original wordmark, illustrated logo, navigation, copy, visual design and scroll interactions are retained. The official symbol and full logo are included as `public/kalyani-symbol.webp` and `public/kalyani-logo.webp`.
 
 ## Run locally
 
@@ -15,6 +15,4 @@ npm run dev
 npm run build
 ```
 
-A successful production build is available in `dist/`. The Vite base path is `/kalyani-foundation/`, for a GitHub Pages project repository named `kalyani`.
-
-The included GitHub Actions workflow builds and deploys `dist/` when changes reach `main`; configure GitHub Pages to use **GitHub Actions**. The contact form currently opens the visitor's email app with a prepared message. No backend source was included with the supplied component attachment; server-side form handling can be connected when that backend is provided.
+The GitHub Pages workflow deploys `dist/` from `main`. The contact form follows the reference site and prepares an email draft; backend integration can be added when backend files are supplied.
