@@ -144,7 +144,7 @@ function App() {
       ]}
       doodles={['heart', 'star', 'sparkle', 'spiral', 'heart', 'star']}
       preset="paper"
-      palette={{ background: '#082f2b', ink: '#e4c781', accent: '#ae8b47' }}
+      palette={{ background: '#082f2b', ink: '#f6f2e7', accent: '#c2a263' }}
       height="min(850px, 100svh)"
       interactive
     />

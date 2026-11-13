@@ -296,7 +296,7 @@ const DEFAULT_ACTIONS: FooterAction[] = [
 
 const DEFAULT_DOODLES: DoodleKind[] = ["flame", "sandwich", "star", "flame", "heart", "sandwich", "bolt", "sparkle"]
 
-const ACCENT = { flame: "#ff7a1a", flameCore: "#ffd23f", gold: "#ffd23f", heart: "#ff5c7a", bread: "#f2c48d", crumb: "#fff1d6", leaf: "#5fb247", beak: "#ff9f1c", cap: "#ff4d4d" }
+const ACCENT = { flame: "#9b7a3a", flameCore: "#d4b777", gold: "#c2a263", heart: "#a87463", bread: "#bd9c72", crumb: "#f6f2e7", leaf: "#71805a", beak: "#9b7a3a", cap: "#987c45" }
 
 // ---- the crew's drawings --------------------------------------------------------
 // Each kind is drawn in its own units: base centre at (0, 0), up is negative,
@@ -513,7 +513,7 @@ const Doodle = ({ kind }: { kind: DoodleKind }) => {
     case "bolt":
       return <path fill={ACCENT.gold} d="M3 -14 L-8 2 L-1 2 L-4 14 L8 -3 L1 -3 Z" />
     case "sparkle":
-      return <path fill="#8fdcff" d="M0 -13 C1 -4 4 -1 13 0 C4 1 1 4 0 13 C-1 4 -4 1 -13 0 C-4 -1 -1 -4 0 -13 Z" />
+      return <path fill="#d4b777" d="M0 -13 C1 -4 4 -1 13 0 C4 1 1 4 0 13 C-1 4 -4 1 -13 0 C-4 -1 -1 -4 0 -13 Z" />
     case "spiral":
       return <path fill="none" d="M0 0 C2 -2 4 0 3 3 C1 6 -4 5 -5 1 C-6 -4 -1 -8 4 -7 C9 -5 10 2 7 6" />
     case "plane":
@@ -1284,7 +1284,7 @@ const CSS =
   ".dcf-svg{display:block;width:100%;height:auto;user-select:none;-webkit-user-select:none}" +
   ".dcf-svg text{fill:var(--dcf-ink)}" +
   ".dcf-art{fill:var(--dcf-bg);stroke:var(--dcf-ink);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}" +
-  ".dcf-art .n{fill:none}.dcf-art .k{fill:var(--dcf-ink)}.dcf-art .a{fill:var(--dcf-accent)}.dcf-art .o{fill:#ff9f1c}.dcf-art .r{fill:#ff4d4d}" +
+  ".dcf-art .n{fill:none}.dcf-art .k{fill:var(--dcf-ink)}.dcf-art .a{fill:var(--dcf-accent)}.dcf-art .o{fill:#9b7a3a}.dcf-art .r{fill:#987c45}" +
   ".dcf-art .thin{stroke-width:1.5}.dcf-art .thick{stroke-width:3.4}" +
   ".dcf-art .dcf-glint{fill:var(--dcf-bg);stroke:none}" +
   ".dcf-art .dcf-shadow{fill:var(--dcf-ink);stroke:none;opacity:.14}" +
